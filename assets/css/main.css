@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&subset=cyrillic');
+
+* {
+	box-sizing: border-box;
+	border-collapse: collapse;
+	padding: 0;
+	margin: 0;
+	font-family: Anonymous Pro, monospace;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background: #558fce;
+}
+
+.wrapper {
+	min-height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 40px 15px;
+}
+
+p {
+	font-size: 24px;
+	color: #fff;
+	margin: 0;
+	line-height: 1;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+img:first-of-type {
+	max-width: 60%;
+	margin-bottom: 20px;
+}
+
+img {
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+ul {
+	display: inline-block;
+	list-style: none;
+	margin-top: 50px;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none !important;
+	margin: 0 15px;
+}
+
+li a {}
+
+li a img {
+	max-width: 100% !important
+}
+
+@media (max-width: 768px) {
+	p {
+		font-size: 16px;
+	}
+}
